@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">🫵🫵🌍🌎 World Ranking 👨🏽‍💻🚀🚀🗺️🗺️🔥</h1>
 
-Currently, two official plugins are available:
+# Demo
+- [Website Builders](https://main--worldranking001.netlify.app/) -  Click on the link to see a live demo of World Ranking website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Built With
+- [React](https://reactjs.dev/)  - A JavaScript library for building user interfaces
+- [Typescript](https://www.typescriptlang.org/)  - TypeScript is a superset of JavaScript that adds optional types to the language.
+- [ReduxToolkit](https://redux-toolkit.js.org/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Mobile Responsive
+2. Interactive elements
+3. Effecient state management
+4. Responsive UI
+5. Deploy on Netlify platform
+6. many more...
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# Assumption before running the application
+
+ ***Make sure nodejs is installed in your system.
+
+
+
+## How To RUN
+
+Go to main directory and run
+
+```bash
+
+# install node modules
+$ npm install
+
+# Run server
+$ npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the website.
+
+## Contact
+
+- GitHub [@div0021](https://github.com/div0021)
+- Linkdin [link](www.linkedin.com/in/divyanshu0021)
+- Gmail [link](singhdivyanshu943@gmail.com)
