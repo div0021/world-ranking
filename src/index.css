@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --text:#D2D5DA;
+  --text-heading: #6C727F;
+  --checks:#4E80EE;
+  --primary-background:#282B30;
+  --secondary-background:#1B1D1F;
+}
+
+div::-webkit-scrollbar,p::-webkit-scrollbar {
+  display: none;
+}
+div,p{
+  scrollbar-width: none;
+}
+body{
+  background-color: var(--secondary-background);
+}
