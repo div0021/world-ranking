@@ -73,7 +73,7 @@ const CountriesTable = () => {
       <div className="h-[1px] w-full bg-primary-background my-5" />
 
       <div className="w-full space-y-2">
-        {countriesData.length > 0 ? (
+        {countriesData.length > 0 &&
           countriesData.map((el) => (
             <div
               className="w-full grid grid-cols-9 gap-x-2"
@@ -99,11 +99,16 @@ const CountriesTable = () => {
                 {el.region}
               </div>
             </div>
-          ))
-        ) : (
+          ))}
+
+        {isLoading ? (
           //   loading
           <Loader />
-        )}
+        ) : countriesData.length === 0 ? (
+          <div className="w-full h-52 flex justify-center items-center">
+            No data found.
+          </div>
+        ) : null}
       </div>
 
       {/* pagination */}
